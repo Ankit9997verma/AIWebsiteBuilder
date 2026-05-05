@@ -9,7 +9,7 @@ import WebsiteEditor from './pages/Editor'
 import LiveSite from './pages/LiveSite'
 import Pricing from './pages/Pricing'
 
-export const serverUrl="https://aiwebsitebuilder-xdif.onrender.com"
+export const serverUrl="https://aiwebsitebuilder-2-5l35.onrender.com"
 function App() {
   useGetCurrentUser()
   const {userData}=useSelector(state=>state.user)
